@@ -23,6 +23,8 @@ To set up the database:
 * `quit`
 * `npm run seed`
 
+If you need to update any code and would like to have the server running and update during the changes run nodemon `npm run watch`
+
 ## Usage 
 Run `npm start` in your command line. Open Insomnia and check the API GET, POST, PUT, and DELETE routes:
 * http://localhost:3001/api/categories/ (add an id if GET by ID, PUT/updating a category, or DELETING a category)
